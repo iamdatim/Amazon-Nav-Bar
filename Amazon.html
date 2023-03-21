@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+  <div class="container-fluid">
+    <img src="ama-logo.png" id="amazon-logo" alt="">
+
+    <!-- <a class="navbar-brand" href="#">Navbar scroll</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+        <div id="nav-content1">
+
+            <div>
+                <svg id="nav-flex1" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+            </div>
+    
+            <div id="nav-flex2"><span id="nav-flex2-writeup1">Deliver to</span> <span id="nav-flex2-writeup2">Nigeria</span></div>
+    
+            
+    
+        </div>
+
+        
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="nav-flex-section2" style="--bs-scroll-height: 100px;">
+        <!-- <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+
+        <div id="search-container">
+          <div class="search-all-container bg-body-secondary">
+          <div class="dropdown" id="search-all-container">
+            <a class="btn dropdown-toggle" id="all-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All
+            </a> 
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <input class="form-control" type="search" placeholder="Search Amazon" aria-label="Search"> -->
+        <input class="form-control me-2" type="search" placeholder="Search Amazon" aria-label="Search">
+        <div class="search-icon-container bg-warning">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" id="search-icon" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+        </div>
+
+      </ul>
+
+        <div id="nav-flex-section3">
+          <div id="language-container">
+
+            <div id="">
+              <img id="flag-icon" src="united-states (1).png" alt="">
+            </div>
+  
+            <div class="dropdown">
+              <a class="btn dropdown-toggle" id="language-link" href="https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang_ais" target="_blank" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                EN
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item"  href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+  
+            <div id="nav-account-section">
+              <span id="nav-account-section1">Hello, sign in</span> 
+              <span id="nav-account-section2">
+                <div class="dropdown">
+                  <a class="btn dropdown-toggle" id="account-links"  href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Account & Lists
+                  </a>
+                
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+            </span>
+            </div>
+            
+            <div id="nav-order-section">
+              <span id="nav-order-section1">Returns</span> 
+              <span id="nav-order-section2">
+                <a id="order-links" href="#">
+                & Orders
+              </a>
+            </span>
+            </div>
+  
+            <div id="cart-section">
+              <img src="s-cart.png" alt="" width="40" height="40">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#fff" class="bi bi-cart3" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg> -->
+
+              
+                <a id="cart-links" href="#">
+                  cart
+                </a>
+              
+
+            </div>
+          
+        </div>
+
+        
+        
+
+        <!-- <span class="icp-nav-flag icp-nav-flag-us icp-nav-flag-lop"></span>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Link</a>
+        </li> -->
+      
+      <!-- <form class="d-flex" role="search">
+        
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+</body>
+</html>

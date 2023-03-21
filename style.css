@@ -1,0 +1,277 @@
+#amazon-logo{
+    margin-top: 0.6rem;
+      height: 3rem;
+      padding: 3px;
+  }
+
+  #amazon-logo:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #nav-content1{
+      display: flex;
+      margin-left: 1rem;
+      padding: 2px;
+      
+  }
+
+  #nav-content1:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #nav-flex1{
+      margin-top: 0.5rem;
+  }
+
+  #nav-flex2{
+      display: flex;
+      flex-direction: column;
+  }
+
+  #nav-flex2-writeup1{
+      font-size: 12px;
+      margin-bottom: -0.5rem;
+      color: white;
+  }
+
+  #nav-flex2-writeup2{
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      /* margin-top: -2rem; */
+  }
+
+  #nav-flex-section2{
+    margin-left: 1rem;
+  }
+
+  #search-container{
+      height: 45px;
+      width: 580px;
+      display: flex;
+      /* align-items: center; */
+  }
+
+  #search-container:hover{
+      cursor: pointer;
+      /* outline-style: solid;
+      outline-color: rgb(253, 186, 62);
+      border-radius: 4px; */
+  }
+
+  #search-container:active{
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: orange;
+  }
+
+
+  .btn{
+    border: none;
+    padding: 0;
+  }
+
+  /* .btn:active{
+    border-width:0;
+    border-style: none;
+  } */
+
+  #search-all-container{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  /* #search-all-container:active{
+    border-width: 3px;
+    border-style: solid;
+    border-color: orange;
+  } */
+
+  #search-content:active{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+  }
+  .search-all-container{
+      height: 40px;
+      width: 51px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      /* margin-left: 1rem; */
+      /* outline-style:solid; */
+      /* outline-color: orange; */
+  
+  }
+
+  .search-all-container:active{
+    border-width: 3px;
+    border-style: solid;
+    border-color: orange;
+  }
+
+
+  #all-link{
+      margin-left: 0.6rem;
+      margin-top: 0.6rem;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: Arial;
+  }
+
+  .form-control{
+      width: 490px;
+      height: 40px;
+      border-radius: 0;
+      outline-width: 0;
+      outline-style: none;
+      outline: none;
+      /* margin-left: 0.1rem; */
+  }
+
+  .search-icon-container{
+      height: 40px;
+      width: 45px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      margin-left: -1rem;
+  }
+
+  .search-icon-container:active{
+    border-width: 3px;
+    border-style: solid;
+    border-color: orange;
+  }
+
+  #search-icon{
+      margin-left: 0.7rem;
+      margin-top: 0.5rem;
+  }
+
+  #nav-flex-section3{
+    display: flex;
+    align-items: center;
+    margin-left: -1rem;
+  }
+
+  #language-container{
+    display: flex;
+    padding: 5px;
+    margin-top: 0.3rem;
+  }
+
+  #language-container:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #flag-icon{
+    margin-top: 1rem;
+    margin-right: 0.3rem;
+    height: 1.4rem;
+  }
+
+  #language-link{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1.1rem;
+    color: white;
+  }
+
+  #nav-account-section{
+    margin-left: 0.5rem;
+    padding: 7px;
+  }
+
+  #nav-account-section:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #nav-account-section1{
+      font-size: 12px;
+      margin-bottom: -0.5rem;
+      color: white;
+  }
+
+  #nav-account-section2{
+      font-size: 14px;
+      font-weight: 700;
+      /* padding-right: 0; */
+  }
+
+  #account-links{
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -0.5rem;
+    color: white;
+  }
+
+  
+  #nav-order-section{
+    margin-left: 0.5rem;
+    padding: 7px;
+  }
+
+  #nav-order-section:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #nav-order-section1{
+      font-size: 12px;
+      color: white;
+      /* margin-bottom: -0.5rem; */
+  }
+
+  #nav-order-section2{
+      font-size: 14px;
+      font-weight: 700;
+      /* padding-right: 0; */
+  }
+
+  #order-links{
+    padding: 0;
+    display: block;
+    margin-top: -0.4rem;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  #cart-section{
+    margin-left: 0.5rem; 
+    display: flex;
+    padding: 7px;
+    /* flex-direction: row; */
+  }
+
+  #cart-section:hover{
+    cursor: pointer;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: white;
+  }
+
+  #cart-links{
+    /* padding: 0; */
+    font-size: 14px;
+    font-weight: 700;
+    /* display: block; */
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+    /* margin-bottom: -3rem; */
+  }
